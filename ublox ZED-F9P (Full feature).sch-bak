@@ -1696,76 +1696,6 @@ Connection ~ 10475 2925
 Connection ~ 10775 2925
 Wire Wire Line
 	10775 2925 10475 2925
-Wire Wire Line
-	13425 6925 13425 6825
-Text Label 13425 6925 0    10   ~ 0
-3.3V
-Wire Wire Line
-	13425 8325 13425 8225
-Text Label 13425 8325 0    10   ~ 0
-GND
-Wire Wire Line
-	13425 7925 13425 7825
-Wire Wire Line
-	13425 7325 13425 7425
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import R34
-U 1 1 5F77C25B
-P 13425 7625
-F 0 "R34" H 13280 7540 70  0000 C BNN
-F 1 "1k" H 13605 7605 70  0000 C TNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 13425 7625 50  0001 C CNN
-F 3 "" H 13425 7625 50  0001 C CNN
-F 4 "ERJ-3EKF1001V" H 13425 7625 50  0001 C CNN "partno"
-	1    13425 7625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import LED1
-U 1 1 5F77C265
-P 13425 8025
-F 0 "LED1" V 13410 7645 70  0000 L BNN
-F 1 "RED" V 13445 7705 70  0000 L TNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:LED-0603" H 13425 8025 50  0001 C CNN
-F 3 "" H 13425 8025 50  0001 C CNN
-F 4 "HSMH-C191" H 13425 8025 50  0001 C CNN "partno"
-	1    13425 8025
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import #GND0110
-U 1 1 5F77C26F
-P 13425 8425
-F 0 "#GND0110" H 13425 8425 50  0001 C CNN
-F 1 "GND" H 13325 8325 59  0000 L BNN
-F 2 "" H 13425 8425 50  0001 C CNN
-F 3 "" H 13425 8425 50  0001 C CNN
-	1    13425 8425
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:3.3V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import #P+0101
-U 1 1 5F77C279
-P 13425 6825
-F 0 "#P+0101" H 13425 6825 50  0001 C CNN
-F 1 "3.3V" H 13425 6935 59  0000 C BNN
-F 2 "" H 13425 6825 50  0001 C CNN
-F 3 "" H 13425 6825 50  0001 C CNN
-	1    13425 6825
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import PWR2
-U 1 1 5F77C283
-P 13425 7125
-F 0 "PWR2" H 13345 7195 70  0000 L BNN
-F 1 "JUMPER-SMT_2_NC_TRACE_SILK" H 13325 7025 70  0000 L TNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:SMT-JUMPER_2_NC_TRACE_SILK" H 13425 7125 50  0001 C CNN
-F 3 "" H 13425 7125 50  0001 C CNN
-F 4 "-" H 13425 7125 50  0001 C CNN "partno"
-	1    13425 7125
-	0    -1   -1   0   
-$EndComp
 Text Notes 13825 5100 0    85   ~ 17
 Stat LEDs (F9H)
 Wire Wire Line
@@ -2094,20 +2024,6 @@ Wire Wire Line
 Wire Wire Line
 	12625 2725 12775 2725
 $Comp
-L Connector:Conn_01x06_Male J3
-U 1 1 5F708564
-P 16425 2900
-F 0 "J3" H 16531 3278 50  0000 C CNN
-F 1 "Molex_PicoBlade" H 16250 3200 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal" H 16425 2900 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/molex/0532610671/WM7624CT-ND/699111" H 16425 2900 50  0001 C CNN
-F 4 "0532610671" H 16425 2900 50  0001 C CNN "partno"
-F 5 "Connector Header Surface Mount, Right Angle 6 position 0.049\" (1.25mm)" H 16425 2900 50  0001 C CNN "Detailed Description"
-F 6 "Approved" H 16425 2900 50  0001 C CNN "Approval"
-	1    16425 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x06_Male J4
 U 1 1 5F70856E
 P 17700 2900
@@ -2133,8 +2049,6 @@ F 3 "" H 16875 2175 50  0001 C CNN
 	1    16875 2175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16625 2700 16875 2700
 Connection ~ 16875 2700
 Wire Wire Line
 	16875 2700 17500 2700
@@ -2166,13 +2080,8 @@ F 7 "Approved" H 16425 3725 50  0001 C CNN "Approval"
 $EndComp
 Wire Wire Line
 	16875 2700 16875 3525
-Text Label 17225 2700 0    50   ~ 0
-Vcc
-Wire Wire Line
-	16625 3200 17250 3200
 Wire Wire Line
 	17250 3200 17500 3200
-Connection ~ 17250 3200
 Wire Wire Line
 	17250 4025 17250 3200
 Wire Wire Line
@@ -2203,16 +2112,6 @@ Wire Wire Line
 	17175 3100 17500 3100
 Wire Wire Line
 	17175 3100 17175 3925
-Text Label 17225 2800 0    50   ~ 0
-RX(#4)
-Text Label 17225 2900 0    50   ~ 0
-TX(#4)
-Text Label 17225 3000 0    50   ~ 0
-RX(#5)
-Text Label 17225 3100 0    50   ~ 0
-TX(#5)
-Text Label 17225 3200 0    50   ~ 0
-GND
 Wire Notes Line
 	15850 1950 15850 4250
 Wire Notes Line
@@ -2241,66 +2140,6 @@ Wire Wire Line
 	16875 2175 16875 2325
 Wire Wire Line
 	16875 2525 16875 2700
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5F7085B9
-P 16725 2800
-F 0 "JP1" H 16725 2850 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 16725 2894 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 16725 2800 50  0001 C CNN
-F 3 "~" H 16725 2800 50  0001 C CNN
-F 4 "Approved" H 16725 2800 50  0001 C CNN "Approval"
-F 5 "-" H 16725 2800 50  0001 C CNN "partno"
-	1    16725 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16825 2800 16950 2800
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5F7085C1
-P 16725 2900
-F 0 "JP2" H 16725 2950 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 16725 2994 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 16725 2900 50  0001 C CNN
-F 3 "~" H 16725 2900 50  0001 C CNN
-F 4 "Approved" H 16725 2900 50  0001 C CNN "Approval"
-F 5 "-" H 16725 2900 50  0001 C CNN "partno"
-	1    16725 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16825 2900 17025 2900
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5F7085C9
-P 16725 3000
-F 0 "JP3" H 16725 3050 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 16725 3094 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 16725 3000 50  0001 C CNN
-F 3 "~" H 16725 3000 50  0001 C CNN
-F 4 "Approved" H 16725 3000 50  0001 C CNN "Approval"
-F 5 "-" H 16725 3000 50  0001 C CNN "partno"
-	1    16725 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16825 3000 17100 3000
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 5F7085D1
-P 16725 3100
-F 0 "JP4" H 16725 3150 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 16725 3194 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 16725 3100 50  0001 C CNN
-F 3 "~" H 16725 3100 50  0001 C CNN
-F 4 "Approved" H 16725 3100 50  0001 C CNN "Approval"
-F 5 "-" H 16725 3100 50  0001 C CNN "partno"
-	1    16725 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	16825 3100 17175 3100
 $Comp
 L Device:Jumper_NO_Small JP5
 U 1 1 5F7085D9
@@ -2572,4 +2411,14 @@ F 4 "USBLC6-2SC6" H 8500 6300 50  0001 C CNN "partno"
 	1    8500 6300
 	1    0    0    1   
 $EndComp
+Text Label 17225 2800 0    50   ~ 0
+RX_P
+Text Label 17225 2900 0    50   ~ 0
+TX_P
+Text Label 17225 3000 0    50   ~ 0
+RX_H
+Text Label 17225 3100 0    50   ~ 0
+TX_H
+Text Label 17225 2700 0    50   ~ 0
+Vcc
 $EndSCHEMATC
