@@ -2485,8 +2485,6 @@ $EndComp
 Connection ~ 10200 6725
 Wire Wire Line
 	10200 6725 10325 6725
-Text Notes 10200 7575 0    50   ~ 0
-Change to 10u tatalum C\n
 $Comp
 L Device:CP1 C?
 U 1 1 5F6DB459
@@ -2509,4 +2507,6 @@ F 3 "~" H 11125 6975 50  0001 C CNN
 	1    11125 6975
 	1    0    0    -1  
 $EndComp
+Text Notes 10350 7575 0    50   ~ 0
+10uF tantalum C\n
 $EndSCHEMATC
