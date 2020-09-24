@@ -1312,40 +1312,7 @@ $EndComp
 Text Label 13725 3625 0    50   ~ 0
 PPS_STAT_H
 Wire Wire Line
-	14750 3625 14750 3825
-Text Label 14750 3625 0    10   ~ 0
-GND
-Wire Wire Line
-	12750 3725 14850 3725
-Wire Wire Line
-	14850 3725 14850 3625
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:ANTENNA-GROUNDEDEDGE_SMA-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import E4
-U 1 1 5F653EF8
-P 14850 3525
-F 0 "E4" H 14970 3525 70  0000 L BNN
-F 1 "SMA" H 14970 3435 70  0000 L BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:SMA-EDGE" H 14850 3525 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/rf-solutions/CON-SMA-EDGE-S/CON-SMA-EDGE-S-ND/5845767" H 14850 3525 50  0001 C CNN
-F 4 "CON-SMA-EDGE-S" H 14850 3525 50  0001 C CNN "partno"
-	1    14850 3525
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import #GND0105
-U 1 1 5F653F02
-P 14750 3925
-F 0 "#GND0105" H 14750 3925 50  0001 C CNN
-F 1 "GND" H 14750 3915 59  0000 C TNN
-F 2 "" H 14750 3925 50  0001 C CNN
-F 3 "" H 14750 3925 50  0001 C CNN
-	1    14750 3925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	12725 3625 12750 3625
-Wire Wire Line
-	12750 3625 12750 3725
 Connection ~ 12725 3625
 Wire Wire Line
 	13225 3525 13325 3525

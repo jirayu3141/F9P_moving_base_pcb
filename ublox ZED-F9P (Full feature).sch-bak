@@ -178,10 +178,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 6000 1800 6100
 Wire Wire Line
-	5500 2200 5300 2200
-Wire Wire Line
-	5500 2300 5300 2300
-Wire Wire Line
 	3125 9575 3025 9575
 Text Label 3025 9575 2    50   ~ 0
 ~SAFE_P
@@ -2246,30 +2242,6 @@ F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 5700 2100 50  0001 C CNN
 F 3 "" H 5700 2100 50  0001 C CNN
 F 4 "ERJ-3EKF27R0V" H 5700 2100 50  0001 C CNN "partno"
 	1    5700 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import R4
-U 1 1 83B45A75
-P 5700 2300
-F 0 "R4" H 5490 2310 70  0000 C BNN
-F 1 "33" H 5870 2310 70  0000 C BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 5700 2300 50  0001 C CNN
-F 3 "" H 5700 2300 50  0001 C CNN
-F 4 "ERJ-3EKF27R0V" H 5700 2300 50  0001 C CNN "partno"
-	1    5700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import R2
-U 1 1 250F4BD6
-P 5700 2200
-F 0 "R2" H 5490 2210 70  0000 C BNN
-F 1 "33" H 5870 2210 70  0000 C BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 5700 2200 50  0001 C CNN
-F 3 "" H 5700 2200 50  0001 C CNN
-F 4 "ERJ-3EKF27R0V" H 5700 2200 50  0001 C CNN "partno"
-	1    5700 2200
 	1    0    0    -1  
 $EndComp
 Text Label 6000 2100 0    50   ~ 0
