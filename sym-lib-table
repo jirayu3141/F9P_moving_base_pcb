@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import.lib)(options "")(descr ""))
+  (lib (name Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import)(type Legacy)(uri ${KIPRJMOD}/]ublox_ZED-F9P-eagle-import.lib)(options "")(descr ""))
   (lib (name "ublox-ZED-F9P-(Full-feature)-rescue")(type Legacy)(uri "${KIPRJMOD}/ublox ZED-F9P (Full feature)-rescue.lib")(options "")(descr ""))
 )

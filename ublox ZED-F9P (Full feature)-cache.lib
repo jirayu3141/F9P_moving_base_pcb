@@ -33,6 +33,25 @@ X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Battery_Cell
+#
+DEF Device_Battery_Cell BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery_Cell" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_D_Small_ALT
 #
 DEF Device_D_Small_ALT D 0 10 N N 1 F N
@@ -95,6 +114,22 @@ S -200 -200 200 75 0 1 10 f
 X GND 1 0 -300 100 U 50 50 1 1 W
 X VO 2 300 0 100 L 50 50 1 1 w
 X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -226,20 +261,6 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# ublox-ZED-F9P-(Full-feature)-rescue_3.3V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import
-#
-DEF ublox-ZED-F9P-(Full-feature)-rescue_3.3V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import #SUPPLY 0 40 Y Y 1 L P
-F0 "#SUPPLY" 0 0 50 H I C CNN
-F1 "ublox-ZED-F9P-(Full-feature)-rescue_3.3V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import" 0 110 59 H V C BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 100 -30 50 N
-P 2 1 0 0 30 50 0 100 N
-X 3.3V 1 0 0 100 U 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
 # ublox-ZED-F9P-(Full-feature)-rescue_33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import
 #
 DEF ublox-ZED-F9P-(Full-feature)-rescue_33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import R 0 40 Y Y 1 L N
@@ -298,20 +319,6 @@ P 2 1 0 0 65 40 90 -40 N
 P 2 1 0 0 90 -40 100 0 N
 X 1 1 -200 0 100 R 0 0 1 0 P
 X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# ublox-ZED-F9P-(Full-feature)-rescue_5V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import
-#
-DEF ublox-ZED-F9P-(Full-feature)-rescue_5V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import #SUPPLY 0 40 Y Y 1 L P
-F0 "#SUPPLY" 0 0 50 H I C CNN
-F1 "ublox-ZED-F9P-(Full-feature)-rescue_5V-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import" 0 110 59 H V C BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 100 -30 50 N
-P 2 1 0 0 30 50 0 100 N
-X 5V 1 0 0 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
@@ -522,24 +529,6 @@ P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
 P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
 X A A 0 100 100 D 0 0 1 0 P
 X C C 0 -200 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# ublox-ZED-F9P-(Full-feature)-rescue_ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import
-#
-DEF ublox-ZED-F9P-(Full-feature)-rescue_ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import BT 0 40 Y Y 1 L N
-F0 "BT" 0 170 70 H V C BNN
-F1 "ublox-ZED-F9P-(Full-feature)-rescue_ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import" 0 -170 70 H V C TNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 0 -60 0 N
-P 2 1 0 0 -50 150 -50 -150 N
-P 2 1 0 0 0 50 0 -50 N
-P 2 1 0 0 50 150 50 -150 N
-P 2 1 0 0 100 50 100 -50 N
-X + + -200 0 100 R 0 0 1 0 W
-X - - 200 0 100 L 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
