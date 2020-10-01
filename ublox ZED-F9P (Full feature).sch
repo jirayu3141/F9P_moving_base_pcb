@@ -4,9 +4,9 @@ EELAYER END
 $Descr User 18994 12568
 encoding utf-8
 Sheet 1 1
-Title "GNSS Moudle (Moving-Base RTK)"
+Title "GNSS Module (Moving-Base RTK)"
 Date "2020-09-17"
-Rev "V2"
+Rev "V1"
 Comp "HiveGround"
 Comment1 "Supervised by Sompol"
 Comment2 "Jirayu Sirivorwaong"
