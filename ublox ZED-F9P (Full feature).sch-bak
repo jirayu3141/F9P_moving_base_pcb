@@ -211,7 +211,7 @@ Connection ~ 1800 2900
 Wire Wire Line
 	9175 6100 9375 6100
 Text Label 9375 6100 0    50   ~ 0
-P_D+
+P_D-
 Wire Wire Line
 	2700 3000 2600 3000
 Text Label 2600 3000 2    50   ~ 0
@@ -219,7 +219,7 @@ P_D+
 Wire Wire Line
 	9175 6500 9375 6500
 Text Label 9375 6500 0    50   ~ 0
-P_D-
+P_D+
 Wire Wire Line
 	2700 3100 2600 3100
 Text Label 2600 3100 2    50   ~ 0
@@ -456,7 +456,7 @@ U 1 1 7EE29203
 P 2900 3000
 F 0 "R9" H 2735 3025 70  0000 C BNN
 F 1 "27" H 3085 3010 70  0000 C BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 2900 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 3000 50  0001 C CNN
 F 3 "" H 2900 3000 50  0001 C CNN
 F 4 "ERJ-3EKF27R0V" H 2900 3000 50  0001 C CNN "partno"
 	1    2900 3000
@@ -468,7 +468,7 @@ U 1 1 4230D5A5
 P 2900 3100
 F 0 "R10" H 2730 3010 70  0000 C BNN
 F 1 "27" H 3080 3010 70  0000 C BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 2900 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2900 3100 50  0001 C CNN
 F 3 "" H 2900 3100 50  0001 C CNN
 F 4 "ERJ-3EKF27R0V" H 2900 3100 50  0001 C CNN "partno"
 	1    2900 3100
@@ -598,7 +598,7 @@ U 1 1 2FF04823
 P 3200 3400
 F 0 "R15" H 1925 -1550 70  0000 C BNN
 F 1 "100k" H 3200 3340 70  0000 C TNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 3200 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3200 3400 50  0001 C CNN
 F 3 "" H 3200 3400 50  0001 C CNN
 F 4 "ERJ-3EKF1003V" H 3200 3400 50  0001 C CNN "partno"
 	1    3200 3400
@@ -732,30 +732,6 @@ F 3 "" H 5700 3000 50  0001 C CNN
 F 4 "ERJ-3EKF27R0V" H 5700 3000 50  0001 C CNN "partno"
 	1    5700 3000
 	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import C2
-U 1 1 BFF33B61
-P 3500 3400
-F 0 "C2" V 3470 3280 70  0000 L BNN
-F 1 "1.0uF" V 3590 3130 70  0000 L BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 3500 3400 50  0001 C CNN
-F 3 "" H 3500 3400 50  0001 C CNN
-F 4 "0603YC105KAT2A" H 3500 3400 50  0001 C CNN "partno"
-	1    3500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import C7
-U 1 1 7E3CC750
-P 3800 3300
-F 0 "C7" V 3820 3510 70  0000 R TNN
-F 1 "0.1uF" V 3710 3670 70  0000 R TNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 3800 3300 50  0001 C CNN
-F 3 "" H 3800 3300 50  0001 C CNN
-F 4 "0603YC104KAT2A" H 3800 3300 50  0001 C CNN "partno"
-	1    3800 3300
-	-1   0    0    1   
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import #GND024
@@ -908,7 +884,7 @@ U 1 1 5F7B3AB3
 P 10175 3025
 F 0 "R8" H 10010 3050 70  0000 C BNN
 F 1 "27" H 10360 3035 70  0000 C BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 10175 3025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10175 3025 50  0001 C CNN
 F 3 "" H 10175 3025 50  0001 C CNN
 F 4 "ERJ-3EKF27R0V" H 10175 3025 50  0001 C CNN "partno"
 	1    10175 3025
@@ -920,7 +896,7 @@ U 1 1 5F7B3ABD
 P 10175 3125
 F 0 "R26" H 10005 3035 70  0000 C BNN
 F 1 "27" H 10355 3035 70  0000 C BNN
-F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:0603" H 10175 3125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10175 3125 50  0001 C CNN
 F 3 "" H 10175 3125 50  0001 C CNN
 F 4 "ERJ-3EKF27R0V" H 10175 3125 50  0001 C CNN "partno"
 	1    10175 3125
@@ -1442,9 +1418,9 @@ $EndComp
 Text Notes 9175 2475 0    59   ~ 0
 LQW15ANR12J00D
 Text Label 9875 3125 2    50   ~ 0
-D-_H
+H_D-
 Text Label 9875 3025 2    50   ~ 0
-D+_H
+H_D+
 Wire Wire Line
 	10475 2825 10475 2925
 Wire Wire Line
@@ -1471,11 +1447,11 @@ Connection ~ 9775 8650
 Wire Wire Line
 	9175 8850 9375 8850
 Text Label 9375 8850 0    50   ~ 0
-D+_H
+H_D+
 Wire Wire Line
 	9175 9250 9375 9250
 Text Label 9375 9250 0    50   ~ 0
-D-_H
+H_D-
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import C9
 U 1 1 5F79DB56
@@ -1546,9 +1522,9 @@ U 1 1 5F7307D4
 P 10075 5900
 F 0 "D7" H 10075 5693 50  0000 C CNN
 F 1 "D_Small_ALT" H 10075 5784 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" V 10075 5900 50  0001 C CNN
-F 3 "https://www.es.co.th/detail.asp?prod=020400218" V 10075 5900 50  0001 C CNN
-F 4 "SS34B" H 10075 5900 50  0001 C CNN "partno"
+F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:SOD-80" V 10075 5900 50  0001 C CNN
+F 3 "https://www.digikey.co.th/product-detail/en/vishay-semiconductor-diodes-division/LS4150GS08/LS4150GS08GICT-ND/4810712" V 10075 5900 50  0001 C CNN
+F 4 "LS4150GS08" H 10075 5900 50  0001 C CNN "partno"
 	1    10075 5900
 	-1   0    0    1   
 $EndComp
@@ -1558,9 +1534,9 @@ U 1 1 5F731F06
 P 10075 8650
 F 0 "D8" H 10075 8443 50  0000 C CNN
 F 1 "D_Small_ALT" H 10075 8534 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB_Handsoldering" V 10075 8650 50  0001 C CNN
-F 3 "https://www.es.co.th/detail.asp?prod=020400218" V 10075 8650 50  0001 C CNN
-F 4 "SS34B" H 10075 8650 50  0001 C CNN "partno"
+F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:SOD-80" V 10075 8650 50  0001 C CNN
+F 3 "https://www.digikey.co.th/product-detail/en/vishay-semiconductor-diodes-division/LS4150GS08/LS4150GS08GICT-ND/4810712" V 10075 8650 50  0001 C CNN
+F 4 "LS4150GS08" H 10075 8650 50  0001 C CNN "partno"
 	1    10075 8650
 	-1   0    0    1   
 $EndComp
@@ -2110,15 +2086,7 @@ Connection ~ 6425 7400
 Wire Wire Line
 	7200 6600 7275 6600
 Wire Wire Line
-	8175 6600 8175 6100
-Wire Wire Line
-	8175 6100 8375 6100
-Wire Wire Line
 	7200 6400 7275 6400
-Wire Wire Line
-	8000 6400 8000 6500
-Wire Wire Line
-	8000 6500 8375 6500
 Wire Wire Line
 	7200 6100 7750 6100
 Wire Wire Line
@@ -2218,8 +2186,8 @@ U 1 1 5F87F742
 P 6600 9250
 F 0 "P2" H 6707 10117 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 6707 10026 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 6750 9250 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6750 9250 50  0001 C CNN
+F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:USB_C_Receptacle_JAE_DX07S016JA1" H 6750 9250 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500?qs=GBLSl2Akirucb2YMMGCxCQ%3D%3D" H 6750 9250 50  0001 C CNN
 	1    6600 9250
 	1    0    0    -1  
 $EndComp
@@ -2284,8 +2252,8 @@ U 1 1 5F7ACD23
 P 6600 6500
 F 0 "P1" H 6707 7367 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 6707 7276 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 6750 6500 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6750 6500 50  0001 C CNN
+F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:USB_C_Receptacle_JAE_DX07S016JA1" H 6750 6500 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500?qs=GBLSl2Akirucb2YMMGCxCQ%3D%3D" H 6750 6500 50  0001 C CNN
 	1    6600 6500
 	1    0    0    -1  
 $EndComp
@@ -2367,5 +2335,59 @@ Wire Wire Line
 Wire Wire Line
 	12625 3025 12975 3025
 Wire Wire Line
-	10650 6725 10875 6725
+	10650 6725 10800 6725
+Wire Wire Line
+	8000 6400 8000 6100
+Wire Wire Line
+	8000 6100 8375 6100
+Wire Wire Line
+	8175 6600 8175 6500
+Wire Wire Line
+	8175 6500 8375 6500
+Text Label 8000 6100 0    50   ~ 0
+_P_D-
+Text Label 7950 6600 0    50   ~ 0
+_P_D+
+$Comp
+L Connector:TestPoint TP4
+U 1 1 601ABBBB
+P 10800 6725
+F 0 "TP4" H 10858 6843 50  0000 L CNN
+F 1 "TestPoint" H 10858 6752 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11000 6725 50  0001 C CNN
+F 3 "~" H 11000 6725 50  0001 C CNN
+	1    10800 6725
+	1    0    0    -1  
+$EndComp
+Connection ~ 10800 6725
+Wire Wire Line
+	10800 6725 10875 6725
+Text Label 8175 8850 0    50   ~ 0
+_H_D+
+Text Label 8000 9250 0    50   ~ 0
+_H_D-
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import C7
+U 1 1 7E3CC750
+P 3800 3300
+F 0 "C7" V 3820 3510 70  0000 R TNN
+F 1 "0.1uF" V 3710 3670 70  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3800 3300 50  0001 C CNN
+F 3 "" H 3800 3300 50  0001 C CNN
+F 4 "0603YC104KAT2A" H 3800 3300 50  0001 C CNN "partno"
+	1    3800 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import C2
+U 1 1 BFF33B61
+P 3500 3400
+F 0 "C2" V 3470 3280 70  0000 L BNN
+F 1 "1.0uF" V 3590 3130 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 3400 50  0001 C CNN
+F 3 "" H 3500 3400 50  0001 C CNN
+F 4 "0603YC105KAT2A" H 3500 3400 50  0001 C CNN "partno"
+	1    3500 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
