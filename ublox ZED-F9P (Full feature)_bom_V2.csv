@@ -1,0 +1,45 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,partno,Approval,Detailed Description,Series
+1,,ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,BT1,Battery_Cell,ML414H_IV01E,1,,ML414H IV01E,,,
+2,,47PF-0402-25V-5%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,C1 C8,47pF,0402,2,,04023A470KAT2A,,,
+3,,0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,C5 C7 C11,0.1uF,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,3,,0603YC104KAT2A,,,
+4,,1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,C2 C3 C6 C9 C10,1.0uF,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,5,,0603YC105KAT2A,,,
+5,,0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,C4,10uF,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,,0603ZD106KAT2A,,,
+6,,DIODE-SCHOTTKY-PMEG4005EJ-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,D2,0.5A/40V/420mV,SOD-323,1,,B0520WS-7-F,,,
+7,"Diode, small symbol, filled shape",D_Small_ALT,D12,DIODE,SOD-80,1,https://www.digikey.co.th/product-detail/en/vishay-semiconductor-diodes-division/LS4150GS08/LS4150GS08GICT-ND/4810712,LS4150GS08,Approved,,
+8,"Diode, small symbol, filled shape",D_Small_ALT,D7 D8,D_Small_ALT,SOD-80,2,https://www.digikey.co.th/product-detail/en/vishay-semiconductor-diodes-division/LS4150GS08/LS4150GS08GICT-ND/4810712,LS4150GS08,,,
+9,,PRTR5V0U2F-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,D5 D6,USBLC6-2SC6,SOT-23-6,2,CON-SMA-EDGE-S,USBLC6-2SC6,,,
+10,,ANTENNA-GROUNDEDEDGE_SMA-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,E1 E2 E3,SMA,SMA-EDGE,3,https://www.digikey.com/product-detail/en/rf-solutions/CON-SMA-EDGE-S/CON-SMA-EDGE-S-ND/5845767,CON-SMA-EDGE-S,,,
+11,,FERRITE_BEAD_GNSS-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,FB1 FB2,120NH,0402_MURATA,2,https://www.digikey.com/product-detail/en/murata-electronics/BLM15AG100SN1D/490-5176-1-ND/1948352,BLM15AG100SN1D,,180 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 2A 50mOhm,
+12,,JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,FENCE1 FENCE2 PPS2 PPS_LED1 PPS_LED2 RTK1 RTK2,JUMPER-SMT_2_NC_TRACE_SILK,SMT-JUMPER_2_NC_TRACE_SILK,7,,-,,,
+13,,CONN_06NO_SILK_FEMALE_PTH-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,J2 J6,CONN_06NO_SILK_FEMALE_PTH,1X06_NO_SILK,2,,,,,
+14,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J7,JST_GH,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM06B-GHS-TB-LF-SN/455-1568-1-ND/807836,SM06B-GHS-TB(LF)(SN),Approved,"Connector Header Surface Mount, Right Angle 6 position 0.049"" (1.25mm)",GH
+15,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J4,Molex_PicoBlade,Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal,1,https://www.digikey.com/product-detail/en/molex/0532610671/WM7624CT-ND/699111,0532610671,Approved,"Connector Header Surface Mount, Right Angle 6 position 0.049"" (1.25mm)",
+16,,LED-BLUE0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,LED4 LED7,BLUE,LED-0603,2,https://www.digikey.com/product-detail/en/w%C3%BCrth-elektronik/150060BS55040/732-12013-1-ND/8557223,150060BS55040,,Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric),
+17,,LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,LED3 LED6,GREEN,LED-0603,2,,HSMG-C120,,,
+18,,LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,LED1,RED,LED-0603,1,,HSMH-C191,,,
+19,,LED-YELLOW0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,LED2 LED5,Yellow,LED-0603,2,https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LY-Q396-P1Q2-36/475-3467-1-ND/7908097,LY Q396-P1Q2-36,,,
+20,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,P1 P2,USB_C_Plug_USB2.0,USB_C_Receptacle_JAE_DX07S016JA1,2,https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500?qs=GBLSl2Akirucb2YMMGCxCQ%3D%3D,,,,
+21,,27OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,R8 R9 R10 R26,27,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,,ERJ-3EKF27R0V,,,
+22,,33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,R4 R6 R7 R14 R18 R19 R20 R21 R22 R23 R24 R25 R28 R29 R30 R31 R32 R33 R38 R39,33,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,20,,ERJ-3EKF27R0V,,,
+23,,1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,R1 R5 R11 R12 R13 R35 R36 R37,1k,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,8,,ERJ-3EKF1001V,,,
+24,,5.1KOHM5.1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,R2 R3 R16 R17,5.1k,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,4,,ERJ-3EKF5101V,,,
+25,,100KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,R15 R27,100k,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,,ERJ-3EKF1003V,,,
+26,"800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223",LM1117-3.3,U1,LD1117S33TR,SOT-223,1,http://www.ti.com/lit/ds/symlink/lm1117.pdf,LD1117S33TR,,,
+27,,ZED-F9H-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,U4,ZED-F9H,ZED-F9P,1,,,,,
+28,,ZED-F9P-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import,U3,ZED-F9P,ZED-F9P,1,,ZED-F9P-01B,,,
+
+
+
+
+
+Component Groups:,28
+Component Count:,84
+Fitted Components:,84
+Number of PCBs:,1
+Total components:,84
+Schematic Version:,V2
+Schematic Date:,2020-09-17
+PCB Variant:,[u'default']
+BoM Date:,"Thursday, 01 October 2020 at 04:44:36 pm"
+Schematic Source:,ublox ZED-F9P (Full feature).sch
+KiCad Version:,Eeschema (5.1.6-0-10_14)
