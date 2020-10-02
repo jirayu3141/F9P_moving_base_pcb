@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr User 18994 12568
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "GNSS Module (Moving-Base RTK)"
@@ -1661,10 +1661,10 @@ Wire Notes Line
 Text Notes 17450 4125 0    50   ~ 0
 UART 2 interface\n
 $Comp
-L Device:D_Small_ALT D12
+L Device:D_Small_ALT D1
 U 1 1 5F7085B0
 P 16875 2425
-F 0 "D12" H 16900 2275 40  0000 R CNN
+F 0 "D1" H 16900 2275 40  0000 R CNN
 F 1 "DIODE" H 16950 2350 40  0000 R CNN
 F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:SOD-80" H 16852 2347 60  0001 R CNN
 F 3 "https://www.digikey.co.th/product-detail/en/vishay-semiconductor-diodes-division/LS4150GS08/LS4150GS08GICT-ND/4810712" H 16746 2347 60  0001 R CNN

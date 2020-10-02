@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Qwiic GPS-RTK-SMA - ublox ZED-F9P")(type KiCad)(uri "${KIPRJMOD}/Qwiic GPS-RTK-SMA - ublox ZED-F9P.pretty")(options "")(descr ""))
+  (lib (name SparkFun_GPS_ZED-F9R_BoB)(type KiCad)(uri ${KIPRJMOD}/SparkFun_GPS_ZED-F9R_BoB.pretty)(options "")(descr ""))
 )
