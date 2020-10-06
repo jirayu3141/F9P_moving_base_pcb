@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A2 23386 16535
+$Descr User 19685 12598
 encoding utf-8
 Sheet 1 1
 Title "GNSS Module (Moving-Base RTK)"

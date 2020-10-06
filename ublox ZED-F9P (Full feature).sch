@@ -1517,7 +1517,7 @@ F 3 "" H 11175 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small_ALT D7
+L ublox-ZED-F9P-(Full-feature)-rescue:D_Small_ALT-Device D7
 U 1 1 5F7307D4
 P 10075 5900
 F 0 "D7" H 10075 5693 50  0000 C CNN
@@ -1529,7 +1529,7 @@ F 4 "LS4150GS08" H 10075 5900 50  0001 C CNN "partno"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Small_ALT D8
+L ublox-ZED-F9P-(Full-feature)-rescue:D_Small_ALT-Device D8
 U 1 1 5F731F06
 P 10075 8650
 F 0 "D8" H 10075 8443 50  0000 C CNN
@@ -1661,7 +1661,7 @@ Wire Notes Line
 Text Notes 17450 4125 0    50   ~ 0
 UART 2 interface\n
 $Comp
-L Device:D_Small_ALT D1
+L ublox-ZED-F9P-(Full-feature)-rescue:D_Small_ALT-Device D1
 U 1 1 5F7085B0
 P 16875 2425
 F 0 "D1" H 16900 2275 40  0000 R CNN
@@ -2181,7 +2181,7 @@ $EndComp
 Wire Wire Line
 	8275 9050 8275 9450
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 P2
+L ublox-ZED-F9P-(Full-feature)-rescue:USB_C_Receptacle_USB2.0-Connector P2
 U 1 1 5F87F742
 P 6600 9250
 F 0 "P2" H 6707 10117 50  0000 C CNN
@@ -2247,7 +2247,7 @@ Wire Wire Line
 	7275 9350 8175 9350
 Connection ~ 9275 8650
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 P1
+L ublox-ZED-F9P-(Full-feature)-rescue:USB_C_Receptacle_USB2.0-Connector P1
 U 1 1 5F7ACD23
 P 6600 6500
 F 0 "P1" H 6707 7367 50  0000 C CNN
