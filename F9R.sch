@@ -39,7 +39,7 @@ Wire Wire Line
 	1800 6000 1800 6100
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue C2
-U 1 1 97ADEDAA
+U 1 1 5FB17FEE
 P 2400 6900
 F 0 "C2" H 2460 7015 70  0000 L BNN
 F 1 "1.0uF" H 2460 6815 70  0000 L BNN
@@ -48,28 +48,6 @@ F 3 "" H 2400 6900 50  0001 C CNN
 F 4 "0603YC105KAT2A" H 2400 6900 50  0001 C CNN "partno"
 	1    2400 6900
 	-1   0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND03
-U 1 1 6CC61BFB
-P 1800 7300
-F 0 "#GND03" H 1800 7300 50  0001 C CNN
-F 1 "GND" H 1800 7290 59  0000 C TNN
-F 2 "" H 1800 7300 50  0001 C CNN
-F 3 "" H 1800 7300 50  0001 C CNN
-	1    1800 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND05
-U 1 1 5F7D1D31
-P 2400 7300
-F 0 "#GND05" H 2400 7300 50  0001 C CNN
-F 1 "GND" H 2400 7290 59  0000 C TNN
-F 2 "" H 2400 7300 50  0001 C CNN
-F 3 "" H 2400 7300 50  0001 C CNN
-	1    2400 7300
-	1    0    0    -1  
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:DIODE-SCHOTTKY-PMEG4005EJ-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue D1
@@ -85,7 +63,7 @@ F 4 "B0520WS-7-F" H 1800 5900 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R1
-U 1 1 43BEF145
+U 1 1 5FB17FAA
 P 1800 6300
 F 0 "R1" H 1800 6360 70  0000 C BNN
 F 1 "1k" H 1800 6240 70  0000 C TNN
@@ -140,15 +118,12 @@ Wire Notes Line
 Text Notes 3925 925  0    85   ~ 17
 Ublox ZED-F9H
 Wire Wire Line
-	3650 2450 3450 2450
-Connection ~ 3650 2450
-Wire Wire Line
 	2550 2550 2450 2550
 Wire Wire Line
 	2550 2650 2450 2650
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:27OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R4
-U 1 1 5F7B3AB3
+U 1 1 5FB17FC9
 P 2750 2550
 F 0 "R4" H 2585 2575 70  0000 C BNN
 F 1 "27" H 2935 2560 70  0000 C BNN
@@ -174,8 +149,6 @@ Wire Wire Line
 	2950 2650 3800 2650
 Wire Wire Line
 	2950 2550 3800 2550
-Wire Wire Line
-	3650 2450 3800 2450
 Wire Wire Line
 	3625 1450 3625 1550
 Wire Wire Line
@@ -235,7 +208,7 @@ F 4 "LY Q396-P1Q2-36" H 12450 7125 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue PPS_LED1
-U 1 1 5F967018
+U 1 1 5FB17FE6
 P 12450 6225
 F 0 "PPS_LED1" H 12240 6305 70  0000 L BNN
 F 1 "JUMPER-SMT_2_NC_TRACE_SILK" H 12350 6125 70  0000 L TNN
@@ -261,7 +234,7 @@ Wire Wire Line
 	6200 3050 6300 3050
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R15
-U 1 1 5F6414CB
+U 1 1 5FB17FAB
 P 6000 3050
 F 0 "R15" H 6025 3100 70  0000 C BNN
 F 1 "33" H 5825 3025 70  0000 C BNN
@@ -277,7 +250,7 @@ Text Label 6475 2850 0    50   ~ 0
 FENCE_STAT
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R10
-U 1 1 5F6A26D5
+U 1 1 5FB17FAE
 P 5600 2850
 F 0 "R10" H 5390 2860 70  0000 C BNN
 F 1 "33" H 5780 2860 70  0000 C BNN
@@ -299,7 +272,7 @@ Wire Wire Line
 	13600 6425 13600 6525
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND025
-U 1 1 5F6B5BC5
+U 1 1 5FB17FAF
 P 13600 7525
 F 0 "#GND025" H 13600 7525 50  0001 C CNN
 F 1 "GND" H 13600 7515 59  0000 C TNN
@@ -310,7 +283,7 @@ F 3 "" H 13600 7525 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:LED-BLUE0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue LED3
-U 1 1 5F6B5BCF
+U 1 1 5FB17FB0
 P 13600 7125
 F 0 "LED3" V 13575 6890 70  0000 L BNN
 F 1 "BLUE" V 13625 6755 70  0000 L TNN
@@ -335,7 +308,7 @@ F 4 "-" H 13600 6225 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R26
-U 1 1 5F6B5BE3
+U 1 1 5FB17FB2
 P 13600 6725
 F 0 "R26" H 13430 6635 70  0000 C BNN
 F 1 "1k" H 13785 6640 70  0000 C BNN
@@ -390,7 +363,7 @@ F 3 "" H 13050 7525 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue LED2
-U 1 1 5F6DB5D7
+U 1 1 5FB17FB5
 P 13050 7125
 F 0 "LED2" V 13025 6890 70  0000 L BNN
 F 1 "GREEN" V 13075 6755 70  0000 L TNN
@@ -402,7 +375,7 @@ F 4 "HSMG-C120" H 13050 7125 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R25
-U 1 1 5F6DB5E1
+U 1 1 5FB17FB6
 P 13050 6725
 F 0 "R25" H 12880 6635 70  0000 C BNN
 F 1 "1k" H 13235 6640 70  0000 C BNN
@@ -416,7 +389,7 @@ Text Notes 13100 4525 2    59   ~ 0
 Cut jumper to \ndisable LED
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue RTK1
-U 1 1 5F6DB5EC
+U 1 1 5FB17FB7
 P 13050 6225
 F 0 "RTK1" H 12960 6295 70  0000 L BNN
 F 1 "JUMPER-SMT_2_NC_TRACE_SILK" H 12950 6125 70  0000 L TNN
@@ -452,7 +425,7 @@ Text Label 16000 2500 2    50   ~ 0
 FENCE_STAT
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:CONN_06NO_SILK_FEMALE_PTH-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue J3
-U 1 1 5F6F4489
+U 1 1 5FB17FB8
 P 16300 2700
 F 0 "J3" H 16100 3120 70  0000 L BNN
 F 1 "CONN_06NO_SILK_FEMALE_PTH" H 15500 2275 70  0000 L BNN
@@ -475,7 +448,7 @@ Wire Wire Line
 	5200 1550 5400 1550
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R9
-U 1 1 5F7127C6
+U 1 1 5FB17FBC
 P 5600 1650
 F 0 "R9" H 5390 1660 70  0000 C BNN
 F 1 "33" H 5770 1660 70  0000 C BNN
@@ -487,7 +460,7 @@ F 4 "ERJ-3EKF27R0V" H 5600 1650 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R8
-U 1 1 5F7127D0
+U 1 1 5FB17FBD
 P 5600 1550
 F 0 "R8" H 5390 1560 70  0000 C BNN
 F 1 "33" H 5770 1560 70  0000 C BNN
@@ -529,7 +502,7 @@ Wire Wire Line
 Connection ~ 1700 2450
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND01
-U 1 1 5F752535
+U 1 1 5FB17FBF
 P 1500 1950
 F 0 "#GND01" H 1500 1950 50  0001 C CNN
 F 1 "GND" H 1500 1940 59  0000 C TNN
@@ -540,7 +513,7 @@ F 3 "" H 1500 1950 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:47PF-0402-25V-5%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue C1
-U 1 1 5F75253F
+U 1 1 5FB17FC0
 P 1700 2750
 F 0 "C1" H 1760 2865 70  0000 L BNN
 F 1 "47pF" H 1760 2665 70  0000 L BNN
@@ -552,7 +525,7 @@ F 4 "04023A470KAT2A" H 1700 2750 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R2
-U 1 1 5F752549
+U 1 1 5FB17FC1
 P 2000 2450
 F 0 "R2" H 2000 2510 70  0000 C BNN
 F 1 "33" H 2000 2390 70  0000 C TNN
@@ -564,7 +537,7 @@ F 4 "ERJ-3EKF27R0V" H 2000 2450 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND02
-U 1 1 5F752553
+U 1 1 5FB17FC2
 P 1700 3050
 F 0 "#GND02" H 1700 3050 50  0001 C CNN
 F 1 "GND" H 1700 3040 59  0000 C TNN
@@ -575,7 +548,7 @@ F 3 "" H 1700 3050 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:ANTENNA-GROUNDEDEDGE_SMA-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue E1
-U 1 1 5F752567
+U 1 1 5FB17FC4
 P 1600 1650
 F 0 "E1" H 1720 1650 70  0000 L BNN
 F 1 "SMA" H 1720 1560 70  0000 L BNN
@@ -740,7 +713,7 @@ NoConn ~ 5200 1750
 NoConn ~ 5200 2350
 $Comp
 L power:+3.3V #PWR03
-U 1 1 5F7EDD9A
+U 1 1 5FB17FD0
 P 3625 1450
 F 0 "#PWR03" H 3625 1300 50  0001 C CNN
 F 1 "+3.3V" H 3640 1623 50  0000 C CNN
@@ -751,7 +724,7 @@ F 3 "" H 3625 1450 50  0001 C CNN
 $EndComp
 $Comp
 L power:+3.3V #PWR05
-U 1 1 5F805367
+U 1 1 5FB17FD1
 P 10500 6575
 F 0 "#PWR05" H 10500 6425 50  0001 C CNN
 F 1 "+3.3V" H 10515 6748 50  0000 C CNN
@@ -768,7 +741,7 @@ Wire Wire Line
 	1800 6600 1800 6800
 $Comp
 L power:+5V #PWR04
-U 1 1 5F83CDED
+U 1 1 5FB17FD4
 P 9475 6675
 F 0 "#PWR04" H 9475 6525 50  0001 C CNN
 F 1 "+5V" H 9490 6848 50  0000 C CNN
@@ -779,7 +752,7 @@ F 3 "" H 9475 6675 50  0001 C CNN
 $EndComp
 $Comp
 L power:+3.3V #PWR02
-U 1 1 5F83EA92
+U 1 1 5FB17FD5
 P 3050 2350
 F 0 "#PWR02" H 3050 2200 50  0001 C CNN
 F 1 "+3.3V" H 3065 2523 50  0000 C CNN
@@ -821,7 +794,7 @@ Wire Wire Line
 	10500 6675 10500 6775
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND024
-U 1 1 5F8F4EA6
+U 1 1 5FB17FDF
 P 14325 3225
 F 0 "#GND024" H 14325 3225 50  0001 C CNN
 F 1 "GND" H 14325 3215 59  0000 C TNN
@@ -877,7 +850,7 @@ F 3 "~" H 11300 -425 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue BT1
-U 1 1 5F80E505
+U 1 1 5FB17FD2
 P 1800 7000
 F 0 "BT1" V 1754 7178 50  0000 L CNN
 F 1 "Battery_Cell" V 1845 7178 50  0000 L CNN
@@ -941,7 +914,7 @@ Wire Wire Line
 	10675 6675 10500 6675
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R13
-U 1 1 5FD06217
+U 1 1 5FB17FEA
 P 5750 2650
 F 0 "R13" H 5540 2660 70  0000 C BNN
 F 1 "33" H 5930 2660 70  0000 C BNN
@@ -953,7 +926,7 @@ F 4 "ERJ-3EKF27R0V" H 5750 2650 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R12
-U 1 1 5FD06222
+U 1 1 5FB17FEB
 P 5750 2550
 F 0 "R12" H 5540 2560 70  0000 C BNN
 F 1 "33" H 5930 2560 70  0000 C BNN
@@ -971,7 +944,7 @@ Wire Wire Line
 	9475 6675 9625 6675
 $Comp
 L Connector:TestPoint TP2
-U 1 1 601ABBBB
+U 1 1 5FB17FEC
 P 9625 6675
 F 0 "TP2" H 9683 6793 50  0000 L CNN
 F 1 "TestPoint" H 9683 6702 50  0000 L CNN
@@ -1378,65 +1351,13 @@ F 3 "" H 10350 2900 50  0001 C CNN
 	1    10350 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L SparkFun_GPS_ZED-F9R_BoB-eagle-import:GND #GND019
-U 1 1 5F7C1853
-P 10350 2400
-AR Path="/5F7C1853" Ref="#GND019"  Part="1" 
-AR Path="/5F7B04CC/5F7C1853" Ref="#GND?"  Part="1" 
-F 0 "#GND019" H 10350 2400 50  0001 C CNN
-F 1 "GND" H 10350 2390 59  0000 C TNN
-F 2 "" H 10350 2400 50  0001 C CNN
-F 3 "" H 10350 2400 50  0001 C CNN
-	1    10350 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SparkFun_GPS_ZED-F9R_BoB-eagle-import:GND #GND014
-U 1 1 5F7C1859
-P 8700 2850
-AR Path="/5F7C1859" Ref="#GND014"  Part="1" 
-AR Path="/5F7B04CC/5F7C1859" Ref="#GND?"  Part="1" 
-F 0 "#GND014" H 8700 2850 50  0001 C CNN
-F 1 "GND" H 8700 2840 59  0000 C TNN
-F 2 "" H 8700 2850 50  0001 C CNN
-F 3 "" H 8700 2850 50  0001 C CNN
-	1    8700 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L SparkFun_GPS_ZED-F9R_BoB-eagle-import:GND #GND015
-U 1 1 5F7C185F
-P 8725 4125
-AR Path="/5F7C185F" Ref="#GND015"  Part="1" 
-AR Path="/5F7B04CC/5F7C185F" Ref="#GND?"  Part="1" 
-F 0 "#GND015" H 8725 4125 50  0001 C CNN
-F 1 "GND" H 8725 4115 59  0000 C TNN
-F 2 "" H 8725 4125 50  0001 C CNN
-F 3 "" H 8725 4125 50  0001 C CNN
-	1    8725 4125
-	1    0    0    -1  
-$EndComp
-$Comp
-L SparkFun_GPS_ZED-F9R_BoB-eagle-import:GND #GND016
-U 1 1 5F7C1865
-P 8725 5125
-AR Path="/5F7C1865" Ref="#GND016"  Part="1" 
-AR Path="/5F7B04CC/5F7C1865" Ref="#GND?"  Part="1" 
-F 0 "#GND016" H 8725 5125 50  0001 C CNN
-F 1 "GND" H 8725 5115 59  0000 C TNN
-F 2 "" H 8725 5125 50  0001 C CNN
-F 3 "" H 8725 5125 50  0001 C CNN
-	1    8725 5125
-	1    0    0    -1  
-$EndComp
 Text Notes 7425 4025 0    70   ~ 0
 Wheel Tick/Direction\nInput: 3-24V
 Wire Wire Line
 	3350 2750 3350 2450
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND06
-U 1 1 5F7B3AF9
+U 1 1 5FB17FCF
 P 2525 3450
 F 0 "#GND06" H 2525 3450 50  0001 C CNN
 F 1 "GND" H 2525 3440 59  0000 C TNN
@@ -1447,7 +1368,7 @@ F 3 "" H 2525 3450 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue C4
-U 1 1 5F7B3AEF
+U 1 1 5FB17FCE
 P 2825 3050
 F 0 "C4" V 2845 3260 70  0000 R TNN
 F 1 "0.1uF" V 2735 3420 70  0000 R TNN
@@ -1480,17 +1401,6 @@ F 3 "" H 2225 3550 50  0001 C CNN
 	1    2225 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND07
-U 1 1 5F7B3AA9
-P 2825 3750
-F 0 "#GND07" H 2825 3750 50  0001 C CNN
-F 1 "GND" H 2825 3740 59  0000 C TNN
-F 2 "" H 2825 3750 50  0001 C CNN
-F 3 "" H 2825 3750 50  0001 C CNN
-	1    2825 3750
-	1    0    0    -1  
-$EndComp
 Text Label 2525 3350 0    10   ~ 0
 GND
 Wire Wire Line
@@ -1499,21 +1409,6 @@ Text Label 2225 3450 0    10   ~ 0
 GND
 Wire Wire Line
 	2225 3450 2225 3350
-Text Label 2825 3550 0    10   ~ 0
-GND
-Wire Wire Line
-	2825 3550 2825 3650
-Wire Wire Line
-	2825 3250 2825 3550
-Connection ~ 2825 3550
-Wire Wire Line
-	2825 3550 2975 3550
-Wire Wire Line
-	2975 3350 2975 3550
-Wire Wire Line
-	3650 2450 3650 2800
-Wire Wire Line
-	2975 3350 3800 3350
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:100KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R3
 U 1 1 5F7B3AC7
@@ -1533,19 +1428,12 @@ Wire Wire Line
 Wire Wire Line
 	2525 2975 2525 2950
 Wire Wire Line
-	2525 2800 3650 2800
+	2525 2800 3450 2800
 Connection ~ 2525 2950
 Wire Wire Line
 	2525 2950 2525 2800
 Wire Wire Line
 	2825 2950 2825 2850
-Wire Wire Line
-	2825 2850 3450 2850
-Wire Wire Line
-	3450 2850 3450 2450
-Connection ~ 3450 2450
-Wire Wire Line
-	3450 2450 3350 2450
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R6
 U 1 1 5F961530
@@ -1586,7 +1474,7 @@ Wire Wire Line
 	3100 2950 3300 2950
 $Comp
 L SparkFun_GPS_ZED-F9R_BoB-eagle-import:U-BLOX_ZED_F9R U1
-U 1 1 5F6877B4
+U 1 1 5FB17FAC
 P 4500 2450
 F 0 "U1" H 4500 3636 59  0000 C CNN
 F 1 "ZED-F9R" H 4500 3531 59  0000 C CNN
@@ -1608,7 +1496,7 @@ AR Path="/5F7C180B" Ref="C5"  Part="1"
 AR Path="/5F7B04CC/5F7C180B" Ref="C?"  Part="1" 
 F 0 "C5" H 7420 2355 70  0000 L BNN
 F 1 "0.1uF" H 7330 2165 70  0000 L BNN
-F 2 "SparkFun_GPS_ZED-F9R_BoB:0402" H 7600 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 2250 50  0001 C CNN
 F 3 "" H 7600 2250 50  0001 C CNN
 	1    7600 2250
 	1    0    0    -1  
@@ -1630,8 +1518,8 @@ F 3 "" H 8600 1750 50  0001 C CNN
 	1    8600 1750
 	0    -1   -1   0   
 $EndComp
-Text Label 8950 2725 0    50   ~ 0
-(enc_ground)
+Text Label 8700 2750 3    50   ~ 0
+encoder_gnd
 Text Label 6825 7275 0    50   ~ 0
 _D-
 Text Label 7000 6875 0    50   ~ 0
@@ -1694,7 +1582,7 @@ Wire Wire Line
 	5125 8175 5250 8175
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND08
-U 1 1 5F87F74D
+U 1 1 5FB17FDE
 P 5250 8375
 F 0 "#GND08" H 5250 8375 50  0001 C CNN
 F 1 "GND" H 5150 8275 59  0000 L BNN
@@ -1707,7 +1595,7 @@ Wire Wire Line
 	6025 6675 6625 6675
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 P1
-U 1 1 5F87F742
+U 1 1 5FB17FDD
 P 5425 7275
 F 0 "P1" H 5532 8142 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 5532 8051 50  0000 C CNN
@@ -1720,7 +1608,7 @@ Wire Wire Line
 	7100 7075 7100 7475
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:5.1KOHM5.1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R17
-U 1 1 5F87F737
+U 1 1 5FB17FDC
 P 6575 7825
 F 0 "R17" H 6575 7885 70  0000 C BNN
 F 1 "5.1k" H 6575 7765 70  0000 C TNN
@@ -1732,7 +1620,7 @@ F 4 "ERJ-3EKF5101V" H 6575 7825 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:5.1KOHM5.1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R16
-U 1 1 5F87F72C
+U 1 1 5FB17FDB
 P 6275 7825
 F 0 "R16" H 6275 7885 70  0000 C BNN
 F 1 "5.1k" H 6275 7765 70  0000 C TNN
@@ -1815,7 +1703,7 @@ F 4 "USBLC6-2SC6" H 7600 7075 50  0001 C CNN "partno"
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND013
-U 1 1 5F79DB60
+U 1 1 5FB17FC7
 P 8600 7275
 F 0 "#GND013" H 8600 7275 50  0001 C CNN
 F 1 "GND" H 8500 7175 59  0000 L BNN
@@ -1826,7 +1714,7 @@ F 3 "" H 8600 7275 50  0001 C CNN
 $EndComp
 $Comp
 L ublox-ZED-F9P-(Full-feature)-rescue:1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue C8
-U 1 1 5F79DB56
+U 1 1 5FB17FC6
 P 8600 6975
 F 0 "C8" H 8660 7090 70  0000 L BNN
 F 1 "1.0uF" H 8660 6890 70  0000 L BNN
@@ -1886,17 +1774,6 @@ Wire Wire Line
 	16250 1250 16100 1250
 Wire Wire Line
 	16100 1450 16250 1450
-$Comp
-L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND026
-U 1 1 5FAC43E5
-P 15775 1775
-F 0 "#GND026" H 15775 1775 50  0001 C CNN
-F 1 "GND" H 15775 1765 59  0000 C TNN
-F 2 "" H 15775 1775 50  0001 C CNN
-F 3 "" H 15775 1775 50  0001 C CNN
-	1    15775 1775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16250 1550 15775 1550
 Wire Wire Line
@@ -1947,4 +1824,137 @@ Wire Wire Line
 	8800 1225 8800 1350
 Wire Wire Line
 	8600 1425 8600 1550
+Wire Wire Line
+	3350 2450 3450 2450
+Wire Wire Line
+	3450 2800 3450 2450
+Connection ~ 3450 2450
+Wire Wire Line
+	3450 2450 3525 2450
+Wire Wire Line
+	3525 2850 3525 2450
+Wire Wire Line
+	2825 2850 3525 2850
+Connection ~ 3525 2450
+Wire Wire Line
+	3525 2450 3800 2450
+NoConn ~ 6025 7775
+NoConn ~ 6025 7875
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND0102
+U 1 1 5F8192DA
+P 10350 2400
+F 0 "#GND0102" H 10350 2400 50  0001 C CNN
+F 1 "GND" H 10350 2390 59  0000 C TNN
+F 2 "" H 10350 2400 50  0001 C CNN
+F 3 "" H 10350 2400 50  0001 C CNN
+	1    10350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND0103
+U 1 1 5F819954
+P 1800 7300
+F 0 "#GND0103" H 1800 7300 50  0001 C CNN
+F 1 "GND" H 1700 7200 59  0000 L BNN
+F 2 "" H 1800 7300 50  0001 C CNN
+F 3 "" H 1800 7300 50  0001 C CNN
+	1    1800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND0104
+U 1 1 5F819EFE
+P 2400 7300
+F 0 "#GND0104" H 2400 7300 50  0001 C CNN
+F 1 "GND" H 2300 7200 59  0000 L BNN
+F 2 "" H 2400 7300 50  0001 C CNN
+F 3 "" H 2400 7300 50  0001 C CNN
+	1    2400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND0105
+U 1 1 5F81A293
+P 2825 3750
+F 0 "#GND0105" H 2825 3750 50  0001 C CNN
+F 1 "GND" H 2725 3650 59  0000 L BNN
+F 2 "" H 2825 3750 50  0001 C CNN
+F 3 "" H 2825 3750 50  0001 C CNN
+	1    2825 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3250 2825 3350
+Wire Wire Line
+	2825 3350 3800 3350
+Connection ~ 2825 3350
+Wire Wire Line
+	2825 3350 2825 3650
+Wire Wire Line
+	7800 7125 7900 7125
+Wire Wire Line
+	7900 7125 7900 6800
+Wire Wire Line
+	7900 6800 9900 6800
+Text Label 15775 1675 3    50   ~ 0
+encoder_gnd
+Text Label 8725 4025 0    50   ~ 0
+encoder_gnd
+Text Label 8725 5025 0    50   ~ 0
+encoder_gnd
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue #GND0101
+U 1 1 5FB1E1E2
+P 11975 7525
+F 0 "#GND0101" H 11975 7525 50  0001 C CNN
+F 1 "GND" H 11875 7425 59  0000 L BNN
+F 2 "" H 11975 7525 50  0001 C CNN
+F 3 "" H 11975 7525 50  0001 C CNN
+	1    11975 7525
+	1    0    0    -1  
+$EndComp
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue LED4
+U 1 1 5FB1E1E9
+P 11975 7125
+F 0 "LED4" V 11960 6745 70  0000 L BNN
+F 1 "RED" V 11995 6805 70  0000 L TNN
+F 2 "Qwiic GPS-RTK-SMA - ublox ZED-F9P:LED-0603" H 11975 7125 50  0001 C CNN
+F 3 "" H 11975 7125 50  0001 C CNN
+F 4 "HSMH-C191" H 11975 7125 50  0001 C CNN "partno"
+	1    11975 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L ublox-ZED-F9P-(Full-feature)-rescue:1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue R27
+U 1 1 5FB1E1F0
+P 11975 6725
+F 0 "R27" H 11830 6640 70  0000 C BNN
+F 1 "1k" H 12155 6705 70  0000 C TNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11975 6725 50  0001 C CNN
+F 3 "" H 11975 6725 50  0001 C CNN
+F 4 "ERJ-3EKF1001V" H 11975 6725 50  0001 C CNN "partno"
+	1    11975 6725
+	0    -1   -1   0   
+$EndComp
+Text Label 11975 7425 0    10   ~ 0
+GND
+Wire Wire Line
+	11975 7425 11975 7325
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5FB1E1F9
+P 11975 5925
+F 0 "#PWR0104" H 11975 5775 50  0001 C CNN
+F 1 "+3.3V" H 11990 6098 50  0000 C CNN
+F 2 "" H 11975 5925 50  0001 C CNN
+F 3 "" H 11975 5925 50  0001 C CNN
+	1    11975 5925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11975 7025 11975 6925
+Wire Wire Line
+	11975 5925 11975 6525
 $EndSCHEMATC

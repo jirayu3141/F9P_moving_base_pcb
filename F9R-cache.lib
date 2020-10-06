@@ -33,30 +33,26 @@ X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x06
+# Connector_Generic_Conn_01x04
 #
-DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S -50 -295 0 -305 1 1 6 N
 S -50 -195 0 -205 1 1 6 N
 S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
 S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -831,6 +827,28 @@ ENDDEF
 DEF ublox-ZED-F9P-(Full-feature)-rescue_LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
 F0 "D" -135 -180 70 V V L BNN
 F1 "ublox-ZED-F9P-(Full-feature)-rescue_LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue" 75 -180 70 V V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 -50 0 N
+P 2 1 0 0 50 0 0 -100 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# ublox-ZED-F9P-(Full-feature)-rescue_LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF ublox-ZED-F9P-(Full-feature)-rescue_LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -135 -180 70 V V L BNN
+F1 "ublox-ZED-F9P-(Full-feature)-rescue_LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue" 75 -180 70 V V L TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
