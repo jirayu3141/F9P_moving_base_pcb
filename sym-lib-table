@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "ublox-ZED-F9P-(Full-feature)-rescue")(type Legacy)(uri "${KIPRJMOD}/ublox ZED-F9P (Full feature)-rescue.lib")(options "")(descr ""))
   (lib (name SparkFun_GPS_ZED-F9R_BoB-eagle-import)(type Legacy)(uri ${KIPRJMOD}/SparkFun_GPS_ZED-F9R_BoB-eagle-import.lib)(options "")(descr ""))
+  (lib (name F9R-rescue)(type Legacy)(uri ${KIPRJMOD}/F9R-rescue.lib)(options "")(descr ""))
 )
