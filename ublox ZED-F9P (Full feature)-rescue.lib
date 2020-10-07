@@ -1,83 +1,666 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# D_Small_ALT-Device
+# 0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
 #
-DEF D_Small_ALT-Device D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "D_Small_ALT-Device" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
+DEF 0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue C 0 40 Y Y 1 L N
+F0 "C" 60 115 70 H V L BNN
+F1 "0.1UF-0603-25V-5%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 60 -85 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 0 1 10 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 10 30 -40 -30 0 30 40 30 -40 F
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# USB_C_Receptacle_USB2.0-Connector
+# 1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
 #
-DEF USB_C_Receptacle_USB2.0-Connector J 0 40 Y Y 1 F N
-F0 "J" -400 750 50 H V L CNN
-F1 "USB_C_Receptacle_USB2.0-Connector" 750 750 50 H V R CNN
-F2 "" 150 0 50 H I C CNN
-F3 "" 150 0 50 H I C CNN
-$FPLIST
- USB*C*Receptacle*
-$ENDFPLIST
+DEF 1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue C 0 40 Y Y 1 L N
+F0 "C" 60 115 70 H V L BNN
+F1 "1.0UF-0603-16V-10%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 60 -85 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
-A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
-A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
-A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
-A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
-A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
-C -100 45 25 0 1 10 F
-C 0 -230 50 0 1 0 F
-S -10 -700 10 -660 0 0 0 N
-S 400 -590 360 -610 0 0 0 N
-S 400 -490 360 -510 0 0 0 N
-S 400 -190 360 -210 0 0 0 N
-S 400 -90 360 -110 0 0 0 N
-S 400 10 360 -10 0 0 0 N
-S 400 110 360 90 0 0 0 N
-S 400 310 360 290 0 0 0 N
-S 400 410 360 390 0 0 0 N
-S 400 610 360 590 0 0 0 N
-S -400 700 400 -700 0 1 10 f
-S -300 -150 -250 150 0 1 10 F
-S 75 70 125 120 0 1 10 F
-P 2 0 1 20 -350 -150 -350 150 N
-P 2 0 1 20 -200 150 -200 -150 N
-P 2 0 1 20 0 -230 0 170 N
-P 3 0 1 20 0 -130 -100 -30 -100 20 N
-P 3 0 1 20 0 -80 100 20 100 70 N
-P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
-X GND A1 0 -900 200 U 50 50 1 1 W
-X GND A12 0 -900 200 U 50 50 1 1 P N
-X VBUS A4 600 600 200 L 50 50 1 1 W
-X CC1 A5 600 400 200 L 50 50 1 1 B
-X D+ A6 600 -100 200 L 50 50 1 1 B
-X D- A7 600 100 200 L 50 50 1 1 B
-X SBU1 A8 600 -500 200 L 50 50 1 1 B
-X VBUS A9 600 600 200 L 50 50 1 1 P N
-X GND B1 0 -900 200 U 50 50 1 1 P N
-X GND B12 0 -900 200 U 50 50 1 1 P N
-X VBUS B4 600 600 200 L 50 50 1 1 P N
-X CC2 B5 600 300 200 L 50 50 1 1 B
-X D+ B6 600 -200 200 L 50 50 1 1 B
-X D- B7 600 0 200 L 50 50 1 1 B
-X SBU2 B8 600 -600 200 L 50 50 1 1 B
-X VBUS B9 600 600 200 L 50 50 1 1 P N
-X SHIELD S1 -300 -900 200 U 50 50 1 1 P
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 100KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF 100KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "100KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF 1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 27OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF 27OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "27OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF 33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "33OHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 47PF-0402-25V-5%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF 47PF-0402-25V-5%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue C 0 40 Y Y 1 L N
+F0 "C" 60 115 70 H V L BNN
+F1 "47PF-0402-25V-5%-X7R-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 60 -85 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 5.1KOHM5.1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF 5.1KOHM5.1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "5.1KOHM5.1KOHM-0603-1_10W-1%-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# ANTENNA-GROUNDEDEDGE_SMA-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF ANTENNA-GROUNDEDEDGE_SMA-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue E 0 40 Y Y 1 L N
+F0 "E" 120 0 70 H V L BNN
+F1 "ANTENNA-GROUNDEDEDGE_SMA-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 120 -90 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 44 1 0 10 N
+P 2 1 0 0 -100 200 100 200 N
+P 2 1 0 0 0 100 -100 200 N
+P 2 1 0 0 0 100 0 0 N
+P 2 1 0 0 0 100 100 200 N
+P 2 1 0 0 50 0 100 0 N
+X GND GND@0 100 -100 100 U 0 0 1 0 B
+X GND GND@1 100 -100 100 U 0 0 1 0 B
+X GND GND@2 100 -100 100 U 0 0 1 0 B
+X GND GND@3 100 -100 100 U 0 0 1 0 B
+X SIGNAL SIG 0 -100 100 U 0 0 1 0 B
+ENDDRAW
+ENDDEF
+#
+# CONN_06NO_SILK_FEMALE_PTH-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF CONN_06NO_SILK_FEMALE_PTH-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue J 0 40 Y Y 1 L N
+F0 "J" -200 420 70 H V L BNN
+F1 "CONN_06NO_SILK_FEMALE_PTH-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" -200 -390 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 400 -200 -300 N
+P 2 1 0 0 -200 400 50 400 N
+P 2 1 0 0 -50 -200 0 -200 N
+P 2 1 0 0 -50 -100 0 -100 N
+P 2 1 0 0 -50 0 0 0 N
+P 2 1 0 0 -50 100 0 100 N
+P 2 1 0 0 -50 200 0 200 N
+P 2 1 0 0 -50 300 0 300 N
+P 2 1 0 0 50 -300 -200 -300 N
+P 2 1 0 0 50 -300 50 400 N
+X 1 1 200 -200 200 L 50 0 1 0 P
+X 2 2 200 -100 200 L 50 0 1 0 P
+X 3 3 200 0 200 L 50 0 1 0 P
+X 4 4 200 100 200 L 50 0 1 0 P
+X 5 5 200 200 200 L 50 0 1 0 P
+X 6 6 200 300 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# DIODE-SCHOTTKY-PMEG4005EJ-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF DIODE-SCHOTTKY-PMEG4005EJ-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -100 80 70 H V L BNN
+F1 "DIODE-SCHOTTKY-PMEG4005EJ-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" -100 -80 70 H V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 30 -50 30 -40 N
+P 2 1 0 0 50 -50 30 -50 N
+P 2 1 0 0 50 0 50 -50 N
+P 2 1 0 0 50 50 50 0 N
+P 2 1 0 0 50 50 70 50 N
+P 2 1 0 0 70 50 70 40 N
+P 2 1 0 0 100 0 50 0 N
+P 3 1 0 0 -50 50 50 0 -50 -50 F
+X A A -100 0 0 R 0 0 1 0 P
+X C C 100 0 0 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# FERRITE_BEAD_GNSS-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF FERRITE_BEAD_GNSS-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue FB 0 40 Y Y 1 L N
+F0 "FB" 50 100 70 H V L BNN
+F1 "FERRITE_BEAD_GNSS-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 50 -100 70 H V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 -75 25 -899 899 1 0 6 N 0 -100 0 -50
+A 0 -25 25 -899 899 1 0 6 N 0 -50 0 0
+A 0 25 25 -899 899 1 0 6 N 0 0 0 50
+A 0 75 25 -899 899 1 0 6 N 0 50 0 100
+P 2 1 0 0 35 100 35 -100 N
+P 2 1 0 0 45 100 45 -100 N
+X 1 P1 0 200 100 D 0 0 1 0 P
+X 2 P2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "GND-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -10 59 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue JP 0 40 Y Y 1 L N
+F0 "JP" -100 100 70 H V L BNN
+F1 "JUMPER-SMT_2_NC_TRACE_SILK-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" -100 -100 70 H V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
+A 14 0 51 0 888 1 0 1 F 65 0 15 49
+A 14 0 48 -888 0 1 0 1 F 15 -48 64 0
+P 2 1 0 0 -100 0 -65 0 N
+P 2 1 0 0 -30 0 40 0 N
+P 2 1 0 0 100 0 65 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# LED-BLUE0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF LED-BLUE0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -135 -180 70 V V L BNN
+F1 "LED-BLUE0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 75 -180 70 V V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 -50 0 N
+P 2 1 0 0 50 0 0 -100 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -135 -180 70 V V L BNN
+F1 "LED-GREEN0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 75 -180 70 V V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 -50 0 N
+P 2 1 0 0 50 0 0 -100 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -135 -180 70 V V L BNN
+F1 "LED-RED0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 75 -180 70 V V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 -50 0 N
+P 2 1 0 0 50 0 0 -100 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# LED-YELLOW0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF LED-YELLOW0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -135 -180 70 V V L BNN
+F1 "LED-YELLOW0603-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 75 -180 70 V V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 -50 0 N
+P 2 1 0 0 50 0 0 -100 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue BT 0 40 Y Y 1 L N
+F0 "BT" 0 170 70 H V C BNN
+F1 "ML414H_IV01E_BATTERY-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" 0 -170 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -60 0 N
+P 2 1 0 0 -50 150 -50 -150 N
+P 2 1 0 0 0 50 0 -50 N
+P 2 1 0 0 50 150 50 -150 N
+P 2 1 0 0 100 50 100 -50 N
+X + + -200 0 100 R 0 0 1 0 w
+X - - 200 0 100 L 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# PRTR5V0U2F-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF PRTR5V0U2F-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue D 0 40 Y Y 1 L N
+F0 "D" -300 310 59 H V L BNN
+F1 "PRTR5V0U2F-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" -300 -310 59 H V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -200 0 10 1 0 0 N
+C 0 -200 10 1 0 0 N
+C 0 -100 10 1 0 0 N
+C 0 100 10 1 0 0 N
+C 0 200 10 1 0 0 N
+C 200 0 10 1 0 0 N
+P 2 1 0 0 -300 -300 300 -300 N
+P 2 1 0 0 -300 -200 0 -200 N
+P 2 1 0 0 -300 0 -200 0 N
+P 2 1 0 0 -300 200 0 200 N
+P 2 1 0 0 -300 300 -300 -300 N
+P 2 1 0 0 -200 -100 -120 -100 N
+P 2 1 0 0 -200 0 -200 -100 N
+P 2 1 0 0 -200 0 -200 100 N
+P 2 1 0 0 -200 0 -20 0 N
+P 2 1 0 0 -200 100 -120 100 N
+P 2 1 0 0 -120 -150 -120 -100 N
+P 2 1 0 0 -120 -100 -120 -50 N
+P 2 1 0 0 -120 -50 -70 -100 N
+P 2 1 0 0 -120 50 -120 100 N
+P 2 1 0 0 -120 100 -120 150 N
+P 2 1 0 0 -120 150 -70 100 N
+P 2 1 0 0 -70 -100 -120 -150 N
+P 2 1 0 0 -70 -100 -70 -150 N
+P 2 1 0 0 -70 -100 -70 -50 N
+P 2 1 0 0 -70 -100 0 -100 N
+P 2 1 0 0 -70 100 -120 50 N
+P 2 1 0 0 -70 100 -70 50 N
+P 2 1 0 0 -70 100 -70 150 N
+P 2 1 0 0 -70 100 0 100 N
+P 2 1 0 0 -20 -50 -20 0 N
+P 2 1 0 0 -20 0 -20 50 N
+P 2 1 0 0 -20 50 30 0 N
+P 2 1 0 0 0 -200 300 -200 N
+P 2 1 0 0 0 -100 0 -200 N
+P 2 1 0 0 0 -100 100 -100 N
+P 2 1 0 0 0 100 100 100 N
+P 2 1 0 0 0 200 0 100 N
+P 2 1 0 0 0 200 300 200 N
+P 2 1 0 0 30 0 -20 -50 N
+P 2 1 0 0 30 0 30 -50 N
+P 2 1 0 0 30 0 30 50 N
+P 2 1 0 0 30 0 200 0 N
+P 2 1 0 0 100 -150 100 -100 N
+P 2 1 0 0 100 -100 100 -50 N
+P 2 1 0 0 100 -50 150 -100 N
+P 2 1 0 0 100 50 100 100 N
+P 2 1 0 0 100 100 100 150 N
+P 2 1 0 0 100 150 150 100 N
+P 2 1 0 0 150 -100 100 -150 N
+P 2 1 0 0 150 -100 150 -150 N
+P 2 1 0 0 150 -100 150 -50 N
+P 2 1 0 0 150 -100 200 -100 N
+P 2 1 0 0 150 100 100 50 N
+P 2 1 0 0 150 100 150 50 N
+P 2 1 0 0 150 100 150 150 N
+P 2 1 0 0 150 100 200 100 N
+P 2 1 0 0 200 0 200 -100 N
+P 2 1 0 0 200 0 300 0 N
+P 2 1 0 0 200 100 200 0 N
+P 2 1 0 0 300 -300 300 -200 N
+P 2 1 0 0 300 -200 300 0 N
+P 2 1 0 0 300 0 300 200 N
+P 2 1 0 0 300 200 300 300 N
+P 2 1 0 0 300 300 -300 300 N
+X 1 1 -400 200 100 R 50 0 1 0 B
+X 2 2 -400 0 100 R 50 0 1 0 B
+X 3 3 -400 -200 100 R 50 0 1 0 B
+X 4 4 400 -200 100 L 50 0 1 0 B
+X 5 5 400 0 100 L 50 0 1 0 B
+X 6 6 400 200 100 L 50 0 1 0 B
+ENDDRAW
+ENDDEF
+#
+# ZED-F9H-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF ZED-F9H-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue U 0 40 Y Y 1 L N
+F0 "U" -600 1020 59 H V L BNN
+F1 "ZED-F9H-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" -600 -1100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -600 -1000 -600 1000 N
+P 2 1 0 0 -600 1000 600 1000 N
+P 2 1 0 0 600 -1000 -600 -1000 N
+P 2 1 0 0 600 1000 600 -1000 N
+X GND 1 -700 -900 100 R 0 50 1 0 B
+X GND 100 -700 -900 100 R 0 50 1 0 B
+X GND 101 -700 -900 100 R 0 50 1 0 B
+X GND 102 -700 -900 100 R 0 50 1 0 B
+X GND 12 -700 -900 100 R 0 50 1 0 B
+X GND 14 -700 -900 100 R 0 50 1 0 B
+X GEO_STAT 19 700 -600 100 L 50 50 1 0 B
+X RF_IN 2 -700 600 100 R 50 50 1 0 B
+X RTK_STAT 20 700 -500 100 L 50 50 1 0 B
+X RX2 26 700 -200 100 L 50 50 1 0 B
+X TX2 27 700 -100 100 L 50 50 1 0 B
+X GND 3 -700 -900 100 R 0 50 1 0 B
+X GND 32 -700 -900 100 R 0 50 1 0 B
+X VCC 33 -700 900 100 R 0 50 1 0 B
+X VCC 34 -700 900 100 R 0 50 1 0 B
+X V_BKCP 36 -700 800 100 R 50 50 1 0 B
+X GND 37 -700 -900 100 R 0 50 1 0 B
+X V_USB 38 -700 0 100 R 50 50 1 0 B
+X USB_D- 39 -700 -200 100 R 50 50 1 0 B
+X ANT_DETECT 4 -700 400 100 R 50 50 1 0 B
+X USB_D+ 40 -700 -100 100 R 50 50 1 0 B
+X GND 41 -700 -900 100 R 0 50 1 0 B
+X TX/MISO 42 700 300 100 L 50 50 1 0 B
+X RX/MOSI 43 700 200 100 L 50 50 1 0 B
+X SDA/~CS~ 44 700 700 100 L 50 50 1 0 B
+X SCL/CLK 45 700 600 100 L 50 50 1 0 B
+X TX_READY 46 700 500 100 L 50 50 1 0 B
+X D_SEL 47 700 100 100 L 50 50 1 0 B
+X GND 48 -700 -900 100 R 0 50 1 0 B
+X ~RESET~ 49 700 900 100 L 50 50 1 0 B
+X ANT_OFF 5 -700 300 100 R 50 50 1 0 B
+X ~SAFEBOOT~ 50 700 -900 100 L 50 50 1 0 B
+X EXTINT 51 700 800 100 L 50 50 1 0 B
+X TIMEPULSE 53 700 -700 100 L 50 50 1 0 B
+X GND 55 -700 -900 100 R 0 50 1 0 B
+X GND 56 -700 -900 100 R 0 50 1 0 B
+X GND 57 -700 -900 100 R 0 50 1 0 B
+X GND 58 -700 -900 100 R 0 50 1 0 B
+X GND 59 -700 -900 100 R 0 50 1 0 B
+X ~ANT_SHORT~ 6 -700 200 100 R 50 50 1 0 B
+X GND 60 -700 -900 100 R 0 50 1 0 B
+X GND 61 -700 -900 100 R 0 50 1 0 B
+X GND 62 -700 -900 100 R 0 50 1 0 B
+X GND 63 -700 -900 100 R 0 50 1 0 B
+X GND 64 -700 -900 100 R 0 50 1 0 B
+X GND 65 -700 -900 100 R 0 50 1 0 B
+X GND 66 -700 -900 100 R 0 50 1 0 B
+X GND 67 -700 -900 100 R 0 50 1 0 B
+X GND 68 -700 -900 100 R 0 50 1 0 B
+X GND 69 -700 -900 100 R 0 50 1 0 B
+X V_RF 7 -700 500 100 R 50 50 1 0 B
+X GND 70 -700 -900 100 R 0 50 1 0 B
+X GND 71 -700 -900 100 R 0 50 1 0 B
+X GND 72 -700 -900 100 R 0 50 1 0 B
+X GND 73 -700 -900 100 R 0 50 1 0 B
+X GND 74 -700 -900 100 R 0 50 1 0 B
+X GND 75 -700 -900 100 R 0 50 1 0 B
+X GND 76 -700 -900 100 R 0 50 1 0 B
+X GND 77 -700 -900 100 R 0 50 1 0 B
+X GND 78 -700 -900 100 R 0 50 1 0 B
+X GND 79 -700 -900 100 R 0 50 1 0 B
+X GND 80 -700 -900 100 R 0 50 1 0 B
+X GND 81 -700 -900 100 R 0 50 1 0 B
+X GND 82 -700 -900 100 R 0 50 1 0 B
+X GND 83 -700 -900 100 R 0 50 1 0 B
+X GND 84 -700 -900 100 R 0 50 1 0 B
+X GND 85 -700 -900 100 R 0 50 1 0 B
+X GND 86 -700 -900 100 R 0 50 1 0 B
+X GND 87 -700 -900 100 R 0 50 1 0 B
+X GND 88 -700 -900 100 R 0 50 1 0 B
+X GND 89 -700 -900 100 R 0 50 1 0 B
+X GND 90 -700 -900 100 R 0 50 1 0 B
+X GND 91 -700 -900 100 R 0 50 1 0 B
+X GND 92 -700 -900 100 R 0 50 1 0 B
+X GND 93 -700 -900 100 R 0 50 1 0 B
+X GND 94 -700 -900 100 R 0 50 1 0 B
+X GND 95 -700 -900 100 R 0 50 1 0 B
+X GND 96 -700 -900 100 R 0 50 1 0 B
+X GND 97 -700 -900 100 R 0 50 1 0 B
+X GND 98 -700 -900 100 R 0 50 1 0 B
+X GND 99 -700 -900 100 R 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# ZED-F9P-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue
+#
+DEF ZED-F9P-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue U 0 40 Y Y 1 L N
+F0 "U" -600 1020 59 H V L BNN
+F1 "ZED-F9P-Qwiic_GPS-RTK-SMA_-_ublox_ZED-F9P-eagle-import-ublox-ZED-F9P-(Full-feature)-rescue-ublox-ZED-F9P-(Full-feature)-rescue" -600 -1100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -600 -1000 -600 1000 N
+P 2 1 0 0 -600 1000 600 1000 N
+P 2 1 0 0 600 -1000 -600 -1000 N
+P 2 1 0 0 600 1000 600 -1000 N
+X GND 1 -700 -900 100 R 0 50 1 0 B
+X GND 100 -700 -900 100 R 0 50 1 0 B
+X GND 101 -700 -900 100 R 0 50 1 0 B
+X GND 102 -700 -900 100 R 0 50 1 0 B
+X GND 12 -700 -900 100 R 0 50 1 0 B
+X GND 14 -700 -900 100 R 0 50 1 0 B
+X GEO_STAT 19 700 -600 100 L 50 50 1 0 B
+X RF_IN 2 -700 600 100 R 50 50 1 0 B
+X RTK_STAT 20 700 -500 100 L 50 50 1 0 B
+X RX2 26 700 -200 100 L 50 50 1 0 B
+X TX2 27 700 -100 100 L 50 50 1 0 B
+X GND 3 -700 -900 100 R 0 50 1 0 B
+X GND 32 -700 -900 100 R 0 50 1 0 B
+X VCC 33 -700 900 100 R 0 50 1 0 B
+X VCC 34 -700 900 100 R 0 50 1 0 B
+X V_BKCP 36 -700 800 100 R 50 50 1 0 B
+X GND 37 -700 -900 100 R 0 50 1 0 B
+X V_USB 38 -700 0 100 R 50 50 1 0 B
+X USB_D- 39 -700 -200 100 R 50 50 1 0 B
+X ANT_DETECT 4 -700 400 100 R 50 50 1 0 B
+X USB_D+ 40 -700 -100 100 R 50 50 1 0 B
+X GND 41 -700 -900 100 R 0 50 1 0 B
+X TX/MISO 42 700 300 100 L 50 50 1 0 B
+X RX/MOSI 43 700 200 100 L 50 50 1 0 B
+X SDA/~CS~ 44 700 700 100 L 50 50 1 0 B
+X SCL/CLK 45 700 600 100 L 50 50 1 0 B
+X TX_READY 46 700 500 100 L 50 50 1 0 B
+X D_SEL 47 700 100 100 L 50 50 1 0 B
+X GND 48 -700 -900 100 R 0 50 1 0 B
+X ~RESET~ 49 700 900 100 L 50 50 1 0 B
+X ANT_OFF 5 -700 300 100 R 50 50 1 0 B
+X ~SAFEBOOT~ 50 700 -900 100 L 50 50 1 0 B
+X EXTINT 51 700 800 100 L 50 50 1 0 B
+X TIMEPULSE 53 700 -700 100 L 50 50 1 0 B
+X GND 55 -700 -900 100 R 0 50 1 0 B
+X GND 56 -700 -900 100 R 0 50 1 0 B
+X GND 57 -700 -900 100 R 0 50 1 0 B
+X GND 58 -700 -900 100 R 0 50 1 0 B
+X GND 59 -700 -900 100 R 0 50 1 0 B
+X ~ANT_SHORT~ 6 -700 200 100 R 50 50 1 0 B
+X GND 60 -700 -900 100 R 0 50 1 0 B
+X GND 61 -700 -900 100 R 0 50 1 0 B
+X GND 62 -700 -900 100 R 0 50 1 0 B
+X GND 63 -700 -900 100 R 0 50 1 0 B
+X GND 64 -700 -900 100 R 0 50 1 0 B
+X GND 65 -700 -900 100 R 0 50 1 0 B
+X GND 66 -700 -900 100 R 0 50 1 0 B
+X GND 67 -700 -900 100 R 0 50 1 0 B
+X GND 68 -700 -900 100 R 0 50 1 0 B
+X GND 69 -700 -900 100 R 0 50 1 0 B
+X V_RF 7 -700 500 100 R 50 50 1 0 B
+X GND 70 -700 -900 100 R 0 50 1 0 B
+X GND 71 -700 -900 100 R 0 50 1 0 B
+X GND 72 -700 -900 100 R 0 50 1 0 B
+X GND 73 -700 -900 100 R 0 50 1 0 B
+X GND 74 -700 -900 100 R 0 50 1 0 B
+X GND 75 -700 -900 100 R 0 50 1 0 B
+X GND 76 -700 -900 100 R 0 50 1 0 B
+X GND 77 -700 -900 100 R 0 50 1 0 B
+X GND 78 -700 -900 100 R 0 50 1 0 B
+X GND 79 -700 -900 100 R 0 50 1 0 B
+X GND 80 -700 -900 100 R 0 50 1 0 B
+X GND 81 -700 -900 100 R 0 50 1 0 B
+X GND 82 -700 -900 100 R 0 50 1 0 B
+X GND 83 -700 -900 100 R 0 50 1 0 B
+X GND 84 -700 -900 100 R 0 50 1 0 B
+X GND 85 -700 -900 100 R 0 50 1 0 B
+X GND 86 -700 -900 100 R 0 50 1 0 B
+X GND 87 -700 -900 100 R 0 50 1 0 B
+X GND 88 -700 -900 100 R 0 50 1 0 B
+X GND 89 -700 -900 100 R 0 50 1 0 B
+X GND 90 -700 -900 100 R 0 50 1 0 B
+X GND 91 -700 -900 100 R 0 50 1 0 B
+X GND 92 -700 -900 100 R 0 50 1 0 B
+X GND 93 -700 -900 100 R 0 50 1 0 B
+X GND 94 -700 -900 100 R 0 50 1 0 B
+X GND 95 -700 -900 100 R 0 50 1 0 B
+X GND 96 -700 -900 100 R 0 50 1 0 B
+X GND 97 -700 -900 100 R 0 50 1 0 B
+X GND 98 -700 -900 100 R 0 50 1 0 B
+X GND 99 -700 -900 100 R 0 50 1 0 B
 ENDDRAW
 ENDDEF
 #
